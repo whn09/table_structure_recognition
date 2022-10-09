@@ -10,10 +10,10 @@ Then, you can run the 2 notebooks ([voc2coco_detection.ipynb](PubTables-1M/voc2c
 
 ## Train Model
 
-You can clone latest Yolov5 code from [https://github.com/ultralytics/yolov5](https://github.com/ultralytics/yolov5) to the directory `yolov5/`, and run the 2 scripts to train table detection model [train_PubTables-1M_detection.sh](yolov5/train_PubTables-1M_detection.sh) and table structure recognition model ([train_PubTables-1M_structure.sh](yolov5/train_PubTables-1M_structure.sh)). You may need to change the variable `path` of the yaml files according to your environment in the directory `yolov5/data/`.
+You can clone latest Yolov5 code from [https://github.com/ultralytics/yolov5](https://github.com/ultralytics/yolov5) to the directory `yolov5/`, and run the 2 scripts to train table detection model ([train_PubTables-1M_detection.sh](yolov5/train_PubTables-1M_detection.sh)) and table structure recognition model ([train_PubTables-1M_structure.sh](yolov5/train_PubTables-1M_structure.sh)). You may need to change the variable `path` of the yaml files according to your environment in the directory `yolov5/data/`.
 
 I have trained each model using yolov5s for 10 epochs, and you can use the models in the directory `yolov5/runs/` for fast try or finetune from the checkpoints.
 
 ## Use Model
 
-You can run the notebook [table_structure_recognition.ipynb](table_structure_recognition.ipynb) to convert a table image to an excel file. Please pay attention to the `ocr` function, you should use [all-in-on ai](https://www.amazonaws.cn/en/solutions/horizontal/guidance/all-in-one-ai/) or any OCR service to get the ocr result.
+You can run the notebook [table_structure_recognition.ipynb](table_structure_recognition.ipynb) to convert a table image to an excel file. Please pay attention to the `ocr` function, you should use [all-in-one-ai](https://www.amazonaws.cn/en/solutions/horizontal/guidance/all-in-one-ai/) or any OCR service to get the ocr result.
