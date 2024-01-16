@@ -16,4 +16,4 @@ I have trained each model using yolov5s for 10 epochs, and you can use the model
 
 ## Use Model
 
-You can run the notebook [table_structure_recognition.ipynb](table_structure_recognition.ipynb) to convert a table image to an excel file. Please pay attention to the `ocr` function, you should use [all-in-one-ai](https://www.amazonaws.cn/en/solutions/horizontal/guidance/all-in-one-ai/) or any OCR service to get the ocr result.
+You can run the notebook [table_structure_recognition.ipynb](table_structure_recognition.ipynb) to convert a table image to an excel file. Please pay attention to the `ocr` function, you should use [all-in-one-ai](https://www.amazonaws.cn/en/solutions/horizontal/guidance/all-in-one-ai/), or PaddleOCR, or any OCR service to get the ocr result.
