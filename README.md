@@ -1,6 +1,6 @@
 # table_structure_recognition
 
-Table detection and table structure recognition using Yolov5
+Table detection and table structure recognition using Yolov5/Yolov8, and you can get the same (even better) result compared with Table Transformer (TATR) with smaller models.
 
 ## Dataset
 
@@ -16,7 +16,7 @@ I have trained each model using yolov5s for 10 epochs, and you can use the model
 
 ## Train Model (Yolov8)
 
-You can change to the directory `yolov8/`, and run the 2 scripts to train table detection model ([train_PubTables-1M_detection.sh](yolov5/train_PubTables-1M_detection.sh)) and table structure recognition model ([train_PubTables-1M_structure.sh](yolov5/train_PubTables-1M_structure.sh)). You may need to change the variable `path` of the yaml files according to your environment in the directory `yolov8/data/`.
+You can change to the directory `yolov8/`, and run the 2 scripts to train table detection model ([train_PubTables-1M_detection.sh](yolov8/train_PubTables-1M_detection.sh)) and table structure recognition model ([train_PubTables-1M_structure.sh](yolov8/train_PubTables-1M_structure.sh)). You may need to change the variable `path` of the yaml files according to your environment in the directory `yolov8/data/`.
 
 I have trained each model using yolov8s for 10 epochs, and you can use the models in the directory `yolov8/runs/detect/` for fast try or finetune from the checkpoints.
 
