@@ -1,0 +1,15 @@
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+path: /opt/dlami/nvme/pubtables-1m/PubTables-1M-Structure-COCO  # dataset root dir
+train: images/train  # train images (relative to 'path') 128 images
+val: images/val  # val images (relative to 'path') 128 images
+test: images/test # test images (optional)
+
+# Classes
+names:
+  0: table
+  1: table column
+  2: table row
+  3: table column header
+  4: table projected row header
+  5: table spanning cell
+  6: table grid cell
