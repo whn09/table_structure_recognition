@@ -4,9 +4,9 @@ Table detection and table structure recognition using Yolov5/Yolov8, and you can
 
 ## Dataset
 
-You can download PubTables-1M from [Microsoft Research Open Data](https://msropendata.com/datasets/505fcbe3-1383-42b1-913a-f651b8b712d3), and uncompress `PubTables-1M-Image_Page_Detection_PASCAL_VOC.tar.gz` and `PubTables-1M-Image_Table_Structure_PASCAL_VOC.tar.gz` to the directory `PubTables-1M/`. Or you can download PubTables-1M and FinTabNet.c using `download_data.sh`.
+You can download PubTables-1M from [Microsoft Research Open Data](https://msropendata.com/datasets/505fcbe3-1383-42b1-913a-f651b8b712d3), and uncompress `PubTables-1M-Image_Page_Detection_PASCAL_VOC.tar.gz` and `PubTables-1M-Image_Table_Structure_PASCAL_VOC.tar.gz` to the directory `data/pubtables-1m/`. Or you can download PubTables-1M, FinTabNet.c and ICDAR-2013.c using `data/download_data.sh`.
 
-Then, you can run the 3 notebooks ([voc2coco_detection.ipynb](PubTables-1M/voc2coco_detection.ipynb), [voc2coco_structure.ipynb](PubTables-1M/voc2coco_structure.ipynb)) and [voc2coco_structure_fintabnet.ipynb](FinTabNet.c/voc2coco_structure_fintabnet.ipynb) to convert VOC format to COCO format.
+Then, you can run the 4 notebooks ([voc2coco_detection.ipynb](data/voc2coco_detection.ipynb), [voc2coco_structure.ipynb](data/voc2coco_structure.ipynb)), [voc2coco_structure_fintabnet.ipynb](data/voc2coco_structure_fintabnet.ipynb), and [voc2coco_structure_icdar2013.ipynb](data/voc2coco_structure_icdar2013.ipynb) to convert VOC format to COCO format.
 
 ## Train Model (Yolov5)
 
