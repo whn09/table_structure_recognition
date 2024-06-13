@@ -1,5 +1,5 @@
 # Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
-path: /opt/dlami/nvme/pubtables-1m/PubTables-1M-Detection-COCO  # dataset root dir
+path: /home/ec2-user/SageMaker/table_structure_recognition/data/pubtables-1m/PubTables-1M-Detection-COCO  # dataset root dir
 train: images/train  # train images (relative to 'path') 128 images
 val: images/val  # val images (relative to 'path') 128 images
 test: images/test # test images (optional)
